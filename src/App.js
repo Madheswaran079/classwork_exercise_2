@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import World from './comp';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
        <h1>Reference Data Types use same memory</h1>
        <button onClick={window["run"]}>click here</button>
       </header>
+      <World />
     </div>
   );
 }
